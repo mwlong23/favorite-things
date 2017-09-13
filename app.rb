@@ -11,7 +11,8 @@ end
 
 post('/') do
   name = params["name"]
-  item = Item.new(name, 0)
+  rank = params["ranking"].to_i
+  item = Item.new(name, rank)
   item.save
   @list = Item.all
   erb(:list)
