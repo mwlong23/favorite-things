@@ -2,7 +2,7 @@
 
 <div class="favorite-things">
   <% @list.each do |item| %>
-    <p><a href='items/<%= item.id() %>'><%= item.name %></a></p>
+    <p><a href='items/<%= item.id() %>'><%= item.rank %>. <%= item.name %></a></p>
   <% end %>
 </div>
 
