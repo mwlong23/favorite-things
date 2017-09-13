@@ -2,7 +2,7 @@
 
 #### _Project in Ruby_
 
-#### By Kelsey Langlois
+#### By Kelsey Langlois & Mitch Long
 
 ## Description
 
@@ -24,6 +24,6 @@ _Please contact [kels.langlois@gmail.com](mailto:kels.langlois@gmail.com) with q
 
 ### License
 
-Copyright (c) 2017 **Kelsey Langlois**
+Copyright (c) 2017 **Kelsey Langlois & Mitch Long**
 
 *This software is licensed under the MIT license.*
