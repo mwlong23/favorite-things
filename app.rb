@@ -11,7 +11,7 @@ end
 
 post('/') do
   name = params["name"]
-  item = Item.new(name)
+  item = Item.new(name, 0)
   item.save
   @list = Item.all
   erb(:list)
